@@ -1,5 +1,5 @@
 {
-  "name": "ngWYSIWYG",
+  "name": "ng-wysiwyg",
   "version": "0.6.5",
   "homepage": "https://github.com/i2cvn/ngWYSIWYG",
   "authors": [
@@ -9,10 +9,7 @@
   "description": "Angular WYSIWYG directive",
   "main": [
     "dist/editor.css",
-    "dist/wysiwyg.js",
-    "dist/images/header-bg.gif",
-    "dist/images/icons.png",
-    "dist/images/resize.gif"
+    "dist/wysiwyg.js"
   ],
   "keywords": [
     "angular",
