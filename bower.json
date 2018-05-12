@@ -1,14 +1,15 @@
 {
   "name": "ngWYSIWYG",
-  "version": "0.6.2",
-  "homepage": "https://github.com/psergus/ngWYSIWYG",
+  "version": "0.6.5",
+  "homepage": "https://github.com/i2cvn/ngWYSIWYG",
   "authors": [
-    "Sergey Petrenko <sergey@inkfrog.com>"
+    "Sergey Petrenko <sergey@inkfrog.com>",
+    "Cuong Nguyen <atomixnmc@gmail.com>"
   ],
   "description": "Angular WYSIWYG directive",
   "main": [
-    "dist/editor.min.css",
-    "dist/wysiwyg.min.js",
+    "dist/editor.css",
+    "dist/wysiwyg.js",
     "dist/images/header-bg.gif",
     "dist/images/icons.png",
     "dist/images/resize.gif"
@@ -39,7 +40,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.4",
-    "angular-sanitize": "^1.4"
+    "angular": "^1.5",
+    "angular-sanitize": "^1.5"
   }
 }
