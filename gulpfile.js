@@ -31,6 +31,7 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('develop', ['set-development-mode', 'minify', 'uglify', 'copy-images', 'watch', 'webserver']);
+gulp.task('build-develop', ['set-development-mode', 'minify', 'uglify', 'copy-images']);
 
 function getDestination() {
 	if (development) {
